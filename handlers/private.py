@@ -10,23 +10,17 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [DONVIP](https://t.me/sensibleguy).
+I can play music in your group's voice call. Developed by [Professor](https://t.me/sensibleguy).
 
-Add me to your group and play music freely!**
+Add me to your group and play music freel!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                
-                  ],[
-                    InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/English_Hindi_chattingg"
-                    ),
-                    InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/English_Hindi_chattingg"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "➕ Join our Group ➕", url="https://t.me/english_hindi_chattingg"
                     )]
             ]
         ),
@@ -40,7 +34,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "🔊 Channel", url="https://t.me/english_hindi_chattingg")
                 ]
             ]
         )
